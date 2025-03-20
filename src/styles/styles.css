@@ -1,0 +1,157 @@
+/* general styles */
+
+body {
+    background-color: antiquewhite;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.section {
+    background-color: white;
+    box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.action {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    color: #e56108;
+    
+}
+
+
+
+/* ul {
+    list-style: url('../assets/star.svg');
+
+} */
+
+
+/* .MIT-website-before {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 90%;
+    height: auto;
+    align-items: stretch;
+} */
+
+h1{
+    text-align: center;
+
+}
+
+
+/* creating a scrollable element to view diff size images*/
+.mockups {
+    white-space: nowrap;
+    width: 100%;
+    max-height: 600px;
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+.mockups img {
+    /* width: 24.5%; */   
+    float: none;
+    flex-grow: auto;
+    /* height: 90%; */
+    margin: 0 0.25%;
+    display: inline-block;
+    zoom: 1;
+    flex: auto auto auto;
+}
+
+.mockup-item-1 {
+    max-height: 450px;
+    width: auto;
+}
+
+.mockup-item-2 {
+    max-height: 450px;
+    width: auto;
+}
+
+.mockup-item-3 {
+    max-height: 450px;
+    width: auto;
+}
+
+.redesigned-website {
+    width: 85%;
+    height: 500px;
+}
+
+a {
+    color: inherit;
+    font-weight: bold;
+    text-decoration: unset;;
+}
+a:hover {
+    color: #FF1423
+}
+
+li {
+    padding: 0.5em;
+    line-height:125%;
+}
+
+p {
+    line-height:150%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+  /** Jeff's CSS Reset
+    * Taken from CS1300 Class Materials (Brown U 2025)
+    */
+  
+  /* set border-box (so that css uses a
+  more reasonable box model, and so it’s
+  like every other platform) */
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /* media elements are replaced elements
+  which have a width based on the media,
+  so we prevent it from expanding beyond
+  its container, and take up a row */
+  img, picture, video, canvas, svg, embed {
+  display: block;
+  max-width: 100%;
+  justify-content: center;
+  margin: auto;
+  }
+  
+  /* get rid of default margins which
+  vary depending on browser anyway, just
+  set it yourself later*/
+  * {
+  margin: 0;
+  }
+  
+  /* make tables look like spreadsheets
+  and less like a spaced-out grid */
+  table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  }
+  
