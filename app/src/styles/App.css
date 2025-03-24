@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/** Jeff's CSS Reset
+  * Taken from CS1300 Class Materials (Brown U 2025)
+  */
+
+/* set border-box (so that css uses a
+more reasonable box model, and so it’s
+like every other platform) */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/* media elements are replaced elements
+which have a width based on the media,
+so we prevent it from expanding beyond
+its container, and take up a row */
+picture, video, canvas, svg {
+display: block;
+max-width: 100%;
+}
+
+/* get rid of default margins which
+vary depending on browser anyway, just
+set it yourself later*/
+* {
+margin: 0;
+}
+
+/* make tables look like spreadsheets
+and less like a spaced-out grid */
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
