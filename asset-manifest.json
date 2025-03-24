@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/responsive-redesign/static/css/main.515fe929.css",
+    "main.js": "/responsive-redesign/static/js/main.2d7b023c.js",
+    "static/js/453.47432551.chunk.js": "/responsive-redesign/static/js/453.47432551.chunk.js",
+    "static/media/WAVEResults.png": "/responsive-redesign/static/media/WAVEResults.62c36ebf01bef2e73a59.png",
+    "static/media/MITBefore.png": "/responsive-redesign/static/media/MITBefore.725634e51b6f67638997.png",
+    "static/media/MITDesktopMockup.jpg": "/responsive-redesign/static/media/MITDesktopMockup.69f5f4bb10b318b04f8b.jpg",
+    "static/media/MITTabletMockup.jpg": "/responsive-redesign/static/media/MITTabletMockup.a058e7570c6544200b0c.jpg",
+    "static/media/MITPhoneMockup.jpg": "/responsive-redesign/static/media/MITPhoneMockup.4b219b4df13a9960b51e.jpg",
+    "static/media/StyleGuide.png": "/responsive-redesign/static/media/StyleGuide.3f4771856fba4840ece4.png",
+    "index.html": "/responsive-redesign/index.html",
+    "main.515fe929.css.map": "/responsive-redesign/static/css/main.515fe929.css.map",
+    "main.2d7b023c.js.map": "/responsive-redesign/static/js/main.2d7b023c.js.map",
+    "453.47432551.chunk.js.map": "/responsive-redesign/static/js/453.47432551.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.515fe929.css",
+    "static/js/main.2d7b023c.js"
+  ]
+}
